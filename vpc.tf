@@ -1,4 +1,4 @@
-module "vpc" {
+module "network" {
     source  = "app.terraform.io/guanruhuang-training/network/google"
     version = "3.2.2"
     # insert required variables here
