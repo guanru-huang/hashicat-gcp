@@ -5,7 +5,6 @@ module "vpc" {
 
     project_id   = var.project
     network_name = "gaurav-network2"
-    routing_mode = "GLOBAL"
 
     subnets = [
     {
